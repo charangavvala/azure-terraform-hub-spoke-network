@@ -120,7 +120,7 @@ resource "azurerm_linux_virtual_machine" "hub_vm" {
   size                = "Standard_B1s"
 
   admin_username = "azureuser"
-  admin_password = "Charan@12345"
+  admin_password = "Test@12345"
 
   disable_password_authentication = false
 
@@ -171,7 +171,7 @@ resource "azurerm_linux_virtual_machine" "spoke_vm" {
   size                = "Standard_B1s"
 
   admin_username = "azureuser"
-  admin_password = "Charan@12345"
+  admin_password = "Test@12345"
 
   disable_password_authentication = false
 
